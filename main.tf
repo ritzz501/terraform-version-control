@@ -11,5 +11,5 @@ provider "local" {}
 
 resource "local_file" "example" {
   filename = "${path.module}/example.txt"
-  content  = "Hello! Terraform version control project."
+  content  = "Updated Terraform configuration using Git."
 }
